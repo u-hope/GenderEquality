@@ -1,0 +1,86 @@
+.navBar{
+    /* position: fixed; */
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    justify-content: space-between;
+    background-color: white;
+    z-index: 10;
+}
+#navBarButton{
+    float: right;
+    background-color: transparent;
+    color: white;
+    font-size: 2em;
+    border: none;
+    /* margin-right: 0.5em; */
+    justify-content: center;
+    align-items: center;
+}
+.navLinks{
+ display:none;
+}
+
+.navLogo img{
+    height:5vh;
+    width:5vw;
+    margin-left: 1em;
+}
+
+
+@media (min-width:60em){
+
+.navBar{
+    position: fixed;
+    overflow: hidden;
+    display: grid;
+    height: 10vh;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    background-color: transparent;
+    z-index: 10;
+}
+
+#navBarButton{
+    display:none;
+}
+
+.active{
+    background-color:white ;
+    /* height: 50px; */
+}
+
+.navLogo img{
+    height:10vh;
+    width:10vh;
+    padding-left: 3vw;
+}
+
+.navLinks{
+    display: inline;
+    text-align: center;
+}
+.navLinks li{
+    display: inline;
+    padding: 12px;
+}
+.navLinks a{
+    color: rgb(255, 255, 255);
+    font-weight:600 ;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.navSocial{
+    display: flex;
+    justify-content: right;
+    margin-top: 2vh;
+    padding-right: 3vw;
+}
+.userImg{
+    height: 6vh;
+    width: 6vh;
+    margin-top: auto;
+}
+}

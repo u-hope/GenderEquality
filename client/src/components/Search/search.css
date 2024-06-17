@@ -1,0 +1,15 @@
+.search{
+    height: 40px;
+    align-self: center;
+    float: right;
+    outline: none;
+    /* border: none; */
+    width:400px;
+    border-radius: 4px;
+    padding-left: 5px;
+    font-size: 15px;
+}
+.searchMain{
+    padding: 2vw;
+    padding-right: 10vw;
+}
